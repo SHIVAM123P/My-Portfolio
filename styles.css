@@ -192,11 +192,26 @@
     margin: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     display: flexbox;
-    margin:  40px 300px;
+    margin:  40px 50px;
 
+}
+.projectitem p{
+    margin:  10px 0 0 0;
+}
+.projectcontainer{
+    padding: 12px;
+    margin:  20px 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
 }
 .projectcontainer h1{
     margin:  40px 300px;
+    padding: 12px;
+    margin:  20px 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
 }
  p{
     font-family: 'Raleway', sans-serif;
@@ -211,31 +226,39 @@ h1{
 h2{
     font-weight: 900;
 }
+.intro{
+    padding: 0 34px;
+    margin: 88px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    /* margin: 6px 0 0 0;
+    padding: 3px;
+    margin: 0 40px; */
+}
 .intro h1{
-    margin:  40px 300px;
+    margin:  40px 50px;
 }
 
 .intro h2{
     font-family: 'Source Sans Pro', sans-serif;
     margin: 12px;
-    margin:  40px 300px;
+    margin:  40px 50px;
 
 }
 
 .intro p{
     font-family: 'Raleway', sans-serif;
-    margin: 12px;
-    margin:  40px 300px;
+    /* margin: 12px; */
+    margin:  20px 0 50px 50px;
 
 }
 
-.skillcontainer{
-    padding: 12px;
 
-}
 
 .skill{
-    width: 265px;
+    width: 90%;
     height: 6px;
     background-color: rgb(7, 60, 60);
     border: 2px solid black;
@@ -246,22 +269,31 @@ h2{
     align-items: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
-    margin:  0 300px;
+    margin:  0 50px;
 }
 
+
 .hundred{
-    width: 350px;
+    width: 90%;
 }
 
 .fifty{
-    width: 200px;
+    width: 50%;
 }
 
 .t75{
-    width: 300px;
+    width: 75%;
+}
+.skillcontainer{
+    padding: 12px;
+    margin:  20px 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
 }
 
-.pos1{
+/* .pos1{
     position: relative;
     left: 50px;
 }
@@ -284,7 +316,7 @@ h2{
 .pos7{
     position: relative;
     left: 74px;
-}
+} */
 .hamburger{
     position: absolute;
     cursor: pointer;
